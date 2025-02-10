@@ -1,0 +1,11 @@
+Cechi,Cercis chinensis
+Lyrho,Lysidice rhodostegia
+Setor,Senna tora
+Glmax,Glycine max
+Metru,Medicago truncatula
+Qumon,Quercus mongolica
+Zeins,Zenia insignis
+Vivin,Vitis vinifera
+Poten,Polygala tenuifolia
+Erjap,Eriobotrya japonica
+Artha,Arabidopsis thaliana

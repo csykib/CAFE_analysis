@@ -1,0 +1,13 @@
+#NEXUS
+begin trees;
+tree nj_tree = [&R] ((((((((Metru:1.0,Glmax:1.0):1.0,Setor:2.0):1.0,Zeins:3.0):1.0,(Lyrho:1.0,Cechi:1.0):3.0):1.0,Poten:5.0):1.0,(Qumon:1.0,Erjap:1.0):5.0):1.0,Vivin:7.0):1.0,Arha:8.0);
+End;
+begin rates;
+blformat nsites=323202 lengths=persite ultrametric=no;
+collapse;
+mrca trurho Metru Lyrho;
+fixage taxon=trurho age=68.00;
+divtime method=pl algorithm=tn cvStart=0 cvInc=0.5 cvNum=8 crossv=yes;
+describe plot=chronogram;
+describe plot=tree_description;
+end;
